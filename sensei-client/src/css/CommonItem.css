@@ -1,0 +1,103 @@
+@font-face{
+  font-family: 'Courgette';
+  src: url('Courgette-Regular.ttf');
+}
+.AppName {
+  font-family: 'Courgette';
+  text-decoration: none;
+  color: #d9d9d9;
+}
+.AppName:hover {
+  color: #baefbc;
+}
+.CardItem {
+  border: 1px solid #d5d5d5;
+  text-align: left;
+  margin-bottom: 8pt;
+  background-color: #fff;
+}
+.MButton{
+  text-decoration: none;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.24), 0 8px 16px rgba(0,0,0,0.24);
+}
+.MButton:hover{
+  text-decoration: none;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.12), 0 6px 12px rgba(0,0,0,0.12);
+}
+.InfoLink{  
+  text-decoration: none;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.24), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.InfoLink:link{  
+  text-decoration: none;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.24), 0 8px 16px rgba(0,0,0,0.24);
+}
+
+.InfoLink:visited{  
+  text-decoration: none;
+}
+
+.InfoLink:hover{  
+  text-decoration: none;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.12), 0 6px 12px rgba(0,0,0,0.12);
+}
+
+.InfoLink:active{  
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.Avatar {
+  max-width: 160px;
+  width: 100%;
+  margin: 4px;
+}
+.AccountMenu {
+  width: 140px;
+  padding: 8px 8px 8px 7px;
+}
+.AccountMenu .dropdown-menu{
+  background: #222;
+  border-color: #080808;
+  color: #9d9d9d;
+}
+.AccountMenu .dropdown-menu a{
+  text-decoration: none;
+  color: #9d9d9d;
+  display: block;
+}
+.AccountMenu .dropdown-menu a:hover{
+  color: #337ab7;
+}
+.AccountMenu a {
+  text-decoration: none;
+}
+/*.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}*/
+.MenuItem a {
+  color: white;
+}
+.AccountName {
+  padding-left: 4px;
+}
+.SmallAvatar {
+  width: 24px;
+}
+
+.PaddingCard {
+  padding: 8px;
+}
+.PaddingCard .row .col h4{
+  margin-left: 4px;  
+}
+.body {
+  padding-top: 0px;  
+}
+.label a {
+  color: white;
+  text-decoration: none;
+}
+.Block {
+  display: block;
+}
